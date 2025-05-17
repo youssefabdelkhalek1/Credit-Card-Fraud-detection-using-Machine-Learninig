@@ -1,5 +1,5 @@
 # 🤖 Machine Learning Pipeline - credit card fraud detection Project
-
+![Demo of Project](assets/demo.gif)
 This project aims to detect fraudulent credit card transactions using a complete machine learning pipeline — from data cleaning and feature engineering to model training, evaluation, and deployment using Streamlit.
 
 ##  Problem Statement
