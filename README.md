@@ -1,5 +1,7 @@
 # 🤖 Machine Learning Pipeline - credit card fraud detection Project
+
 ![Demo of Project](assets/demo.gif)
+
 This project aims to detect fraudulent credit card transactions using a complete machine learning pipeline — from data cleaning and feature engineering to model training, evaluation, and deployment using Streamlit.
 
 ##  Problem Statement
@@ -105,12 +107,12 @@ Finex, a financial services company, is suffering from major financial losses du
    cd Credit-Card-Fraud-detection-using-Machine-Learninig
    ```
 
-3. Run the notebooks using Jupyter:
+2. Run the notebooks using Jupyter:
    ```bash
    jupyter notebook
    ```
-
 ---
+3.Try the app: https://cardshield-app.streamlit.app/
 
 ## 👨‍💻 Author
 
