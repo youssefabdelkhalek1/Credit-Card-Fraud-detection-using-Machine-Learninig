@@ -6,9 +6,9 @@ import pandas as pd
 import os
 sc=StandardScaler()
 
-#Loading scaleres and model
+#Loading scaleres,encoder and model
 def load_resources():
-    base_path = r'C:\Users\Youssef Abdel Khaleq\graduation project depi\artifacts'
+    base_path = os.path.join(os.path.dirname(__file__), 'artifacts')
     
     model_path = os.path.join(base_path, 'randomforest_model.pkl')
     encoder_path = os.path.join(base_path, 'le_merchant_category.pkl')
