@@ -94,7 +94,7 @@ Finex, a financial services company, is suffering from major financial losses du
 - Pandas / NumPy
 - Scikit-learn
 - Seaborn / Matplotlib
-- XGBoost / LightGBM (if used)
+- XGBoost / LightGBM 
 ---
 
 ## 🚀 How to Run
