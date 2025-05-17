@@ -3,14 +3,21 @@ import numpy as np
 import joblib
 from sklearn.preprocessing import StandardScaler
 import pandas as pd
+import os
 sc=StandardScaler()
 
 #Loading scaleres and model
-def load_resources():   
-    model = joblib.load(r'C:\Users\Youssef Abdel Khaleq\graduation project depi\models\randomforest_model.pkl')
-    category_encoder = joblib.load(r'C:\Users\Youssef Abdel Khaleq\graduation project depi\encoders\le_merchant_category.pkl')
-    final_scaler = joblib.load(r"C:\Users\Youssef Abdel Khaleq\graduation project depi\scaler\final_scaler.pkl")
-
+def load_resources():
+    base_path = r'C:\Users\Youssef Abdel Khaleq\graduation project depi\artifacts'
+    
+    model_path = os.path.join(base_path, 'randomforest_model.pkl')
+    encoder_path = os.path.join(base_path, 'le_merchant_category.pkl')
+    scaler_path = os.path.join(base_path, 'final_scaler.pkl')
+    
+    model = joblib.load(model_path)
+    category_encoder = joblib.load(encoder_path)
+    final_scaler = joblib.load(scaler_path)
+    
     return model, category_encoder, final_scaler
 
 
